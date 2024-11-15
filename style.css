@@ -37,6 +37,12 @@ header
     flex-direction: column;
     align-items: center;
     background: #111111;
+    box-shadow: 1px 2px 5px #3f8cff52;
+
+}
+
+.logo img{
+    width: 200px;
 }
 
 header h1, h2
@@ -58,12 +64,23 @@ nav li
     margin: 0 3rem;
 }
 
+li a 
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+li a:hover
+{
+    text-decoration: none;
+    color: rgb(2, 0, 0);
+}
 
 .menu-bar {
   
     margin-top: 2rem;
     margin-left: 1rem;
-  
+    margin-bottom: 0.4rem;  
     border-radius: 25px;
     height: fit-content;
     display: inline-flex;
@@ -107,6 +124,7 @@ nav li
     color: black;
     }
     }
+    
 }
 
 
@@ -120,13 +138,23 @@ nav li
 
 
     display: flex;
+    flex-direction: column;
     padding: 20px;
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    max-width: 500px; 
+    max-width: 600px; 
     color: white;
-    background-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box; /* Garante que padding não "quebre" o layout *
+    /*background-color: rgba(0, 0, 0, 0);*/
+}
+
+.image img 
+{
+    max-width: 100%; 
+    height: auto;    
+    display: block;  
+    margin: 0 auto; 
 }
 
 
@@ -138,14 +166,24 @@ nav li
 
 .containerChild
 {
-    margin: 0 auto;
+ 
     margin-top: 1.5rem;
 }
 
 .containerChild section h1
 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
     margin-bottom: 12px;
 }
 
+
+
+.image
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 
 /* Fim */
