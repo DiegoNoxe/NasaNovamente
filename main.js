@@ -6,7 +6,8 @@ function efeitoSub()
 {
     if(j<texto2.length)
     {
-        document.querySelector('.escrevendo2').textContent += texto2.charAt(j);
+        let leitura = document.querySelector('.escrevendo2');
+        leitura.textContent += texto2.charAt(j);
         j++;
         setTimeout(efeitoSub, 50);
     }

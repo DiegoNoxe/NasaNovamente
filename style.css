@@ -32,7 +32,6 @@ body
 /* Parte superior do site */
 header
 {
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -178,12 +177,62 @@ li a:hover
     margin-bottom: 12px;
 }
 
-
-
 .image
 {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+/* Fim */
+
+
+/* Rodapé da pagina */
+
+
+footer
+{
+
+    background-color: #0000009c;;
+    color: white;
+}
+
+footer p
+{
+    font-size: 1.5rem;
+    padding: 30px;
+    text-align: center;
+    font-family: 'BBC Reith';
+ 
+}
+
+footer p a
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+footer p a:hover
+{
+    color: rgb(3, 61, 252);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Fim */
