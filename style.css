@@ -191,18 +191,20 @@ li a:hover
 
 footer
 {
-
+    
     background-color: #0000009c;;
     color: white;
 }
+
+
 
 footer p
 {
     font-size: 1.5rem;
     padding: 30px;
-    text-align: center;
     font-family: 'BBC Reith';
- 
+    text-align: center;
+    display: block;
 }
 
 footer p a
@@ -221,18 +223,36 @@ footer p a:hover
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Fim */
+
+
+
+
+
+
+/* Outros dispositivos */
+
+@media (max-width: 600px) 
+{
+    .menu-bar 
+    {
+      display: none;
+    }
+
+    body
+    {
+        letter-spacing: normal; /* ajuste para melhor visualização */
+    }
+
+    p
+    {
+        font-size: 15px;
+    }
+
+    header .escrevendo2
+    {
+        margin-top: 24px;
+        font-size: 1.2rem;
+    }
+
+  }
